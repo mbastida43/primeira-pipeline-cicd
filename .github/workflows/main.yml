@@ -22,5 +22,5 @@ jobs:
       file: ./src/Dockerfile
       push: true
       tags: |
-      marlonbastida/aula-primeira-pipeline:v${{ github.run_number }}
-      marlonbastida/aula-primeira-pipeline:latest
+        marlonbastida/aula-primeira-pipeline:v${{ github.run_number }}
+        marlonbastida/aula-primeira-pipeline:latest
