@@ -15,8 +15,8 @@ jobs:
        username: ${{ secrets.DOCKERHUB_USERNAME }}
        password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Build da imagem Docker
-     uses: docker/build-push-action@v6.13.0
-     with:
+      uses: docker/build-push-action@v6.13.0
+      with:
         context: ./src
         file: ./src/Dockerfile
         push: true
