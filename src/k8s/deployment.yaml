@@ -13,8 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: fabricioveronez/primeira-pipeline-cicd
-        ports:
+        image: fabricioveronez/aula-primeira-pipeline
         - containerPort: 5000
 --- 
 apiVersion: v1
