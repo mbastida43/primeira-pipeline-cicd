@@ -17,10 +17,10 @@ jobs:
     
     -name: Build da imagem Docker
      uses: docker/build-push-action@v6.13.0
-        with:
-          context: ./src
-          file: ./src/Dockerfile
-          push: true
-          tags: |
-            marlonbastida/aula-primeira-pipeline:v${{ github.run_number }}
-            marlonbastida/aula-primeira-pipeline:latest
+     with:
+      context: ./src
+      file: ./src/Dockerfile
+      push: true
+      tags: |
+      marlonbastida/aula-primeira-pipeline:v${{ github.run_number }}
+      marlonbastida/aula-primeira-pipeline:latest
