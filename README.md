@@ -1,3 +1,3 @@
 # primeira-pipeline-cicd
 
-Exemplo de pipeline CI\CD no Github Actions
+Exemplo de pipeline realizada CI\CD no Github Actions
