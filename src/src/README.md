@@ -1,1 +1,0 @@
-# primeira-pipeline-cicd
