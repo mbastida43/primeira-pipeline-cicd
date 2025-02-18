@@ -13,14 +13,9 @@ spec:
     spec:
       containers:
       - name: web
-<<<<<<< HEAD
-        image: fabricioveronez/primeira-pipeline-cicd
-        ports:
-=======
-        image: fabricioveronez/aula-primeira-pipeline
->>>>>>> 8f17bb3 (commit 1st - pipeline CD)
+        image: marlonbastida/aula-primeira-pipeline
         - containerPort: 5000
---- 
+---
 apiVersion: v1
 kind: Service
 metadata:

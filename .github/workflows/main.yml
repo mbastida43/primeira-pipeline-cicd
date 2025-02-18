@@ -30,7 +30,7 @@ jobs:
     - name: Obtendo codigo
       uses: actions/checkout@v4.2.2
     - name: Configuração de texto do Kubernetes
-      uses: azure/k8s-set-context@vv4.0.1
+      uses: azure/k8s-set-context@v4.0.1
       with:
         method: kubeconfig
         kubeconfig: ${{ secrets.K8S_CONFIG }}
