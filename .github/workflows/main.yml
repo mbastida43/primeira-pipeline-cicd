@@ -2,7 +2,7 @@ name: CI-CD
 on: 
   push:
     branches: ["main"]
-  workflow_dispatch: #dispara manuamente
+    workflow_dispatch: #dispara manuamente
 jobs:
   CI:
     runs-on: ubuntu-latest
